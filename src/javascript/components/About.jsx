@@ -6,7 +6,7 @@ var About = React.createClass({
 
     render: function() {
         return (
-            <h1>This the about page.</h1>
+            <p>Simple github repo search tool. Simply enter a repo name, and behold the greatness. Built with React, bro.</p>
         );
     }
 

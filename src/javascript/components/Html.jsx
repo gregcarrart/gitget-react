@@ -19,6 +19,7 @@ var Html = React.createClass({
                     <meta property="og:description" content="Description Here" />
                     <link rel="shortcut icon" href="/images/favicon.ico" />
                     <link rel="stylesheet" href="/css/styles.css" />
+                    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
                 </head>
                 <body>
                     <div id="app" dangerouslySetInnerHTML={{__html: this.props.markup}}></div>
