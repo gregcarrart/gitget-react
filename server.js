@@ -41,7 +41,7 @@ server.use(function (req, res, next) {
             ));
 
             var html = React.renderToStaticMarkup(HtmlComponent({
-                title: "react-flux-gulp-starter",
+                title: "git getter 2.0",
                 state: res.locals.state,
                 markup: markup
             }));
